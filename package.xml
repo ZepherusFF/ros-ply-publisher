@@ -1,15 +1,21 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>ply_publisher</name>
-  <version>0.0.1</version>
-  <description>An example ROS package for publishing .ply files to a pointcloud topic</description>
-  <maintainer email="ferrefrederick@gmail.com">Your Name</maintainer>
-  <license>MIT</license>
+  <version>1.0.0</version>
+  <description>The ply_publisher package</description>
+
+  <maintainer email="ferrefrederick@gmail.com">ZepherusFF</maintainer>
+
+  <license>GPLv3</license>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>pcl</build_depend>
   <buildtool_depend>catkin</buildtool_depend>
-  <depend>pcl_conversions</depend>
-  <depend>pcl_ros</depend>
-  <depend>roscpp</depend>
-  <depend>sensor_msgs</depend>
-  <depend>std_msgs</depend>
-  <depend>pcl</depend>
+
+  <export>
+  </export>
 </package>
