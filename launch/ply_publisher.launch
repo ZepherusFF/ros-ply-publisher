@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="my_package" type="ply_publisher_node" name="ply_publisher">
+    <param name="directory" value="/path/to/ply/files" />
+  </node>
+</launch>

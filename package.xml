@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>my_package</name>
+  <version>0.0.1</version>
+  <description>An example ROS package for publishing .ply files to a pointcloud topic</description>
+  <maintainer email="ferrefrederick@gmail.com">Your Name</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_ros</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>pcl</depend>
+</package>

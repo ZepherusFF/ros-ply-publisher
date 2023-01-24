@@ -1,0 +1,2 @@
+add_executable(ply_publisher_node src/main.cpp)
+target_link_libraries(ply_publisher_node ${catkin_LIBRARIES})
