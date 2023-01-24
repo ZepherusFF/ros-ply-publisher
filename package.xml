@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>my_package</name>
+  <name>ply_publisher</name>
   <version>0.0.1</version>
   <description>An example ROS package for publishing .ply files to a pointcloud topic</description>
   <maintainer email="ferrefrederick@gmail.com">Your Name</maintainer>
